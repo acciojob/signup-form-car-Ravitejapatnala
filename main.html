@@ -9,12 +9,12 @@
 <body>
 	<form action="#" method="post">
 		<section>
-			<lable for="name">Name*</lable>
+			<label for="name">Name*</lable>
 			<input type="text" name="name" id="name" placeholder="Name"required>
 		</section>
 		<br>
 		<section>
-			<lable for="email">Email*</lable>
+			<label for="email">Email*</lable>
 			<input type="email" name="email" id="email" placeholder="Email"required>
 		</section>
 		<br>
@@ -25,20 +25,22 @@
 		</section>
 		<br>
 		<section>
-			<label for="cars">Choose your car*</label>
-			<input type="text" required placeholder="--Please choose an option--"><br>
-			<input type="checkbox" required>BMW
-			<input type="checkbox" required>Audi
-			<input type="checkbox" required>Mercedez
+			<label for="cars">Select cars*</label>
+			<select name="cars">
+				<option value="--Please choose an option--">--Please choose an option--</option>
+				<option value="BMW">BMW</option>
+				<option value="Audi">Audi</option>
+				<option value="Mercedez">Mercedez</option>
+			</select>
 		</section>
 		<br>
 		<section>
-			<lable for="age">Age*</lable>
+			<label for="age">Age*</lable>
 			<input type="number" name="age" id="age" placeholder="Age"required>
 		</section>
 		<br>
 		<section>
-			<lable for="DOB">DOB*</lable>
+			<label for="DOB">DOB*</lable>
 			<input type="date" name="DOB" id="DOB"required>
 		</section>
 		<br>
