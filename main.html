@@ -7,7 +7,55 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form action="#" method="post">
+		<section>
+			<lable for="name">Name*</lable>
+			<input type="text" name="name" id="name" placeholder="Name"required>
+		</section>
+		<br>
+		<section>
+			<lable for="email">Email*</lable>
+			<input type="email" name="email" id="email" placeholder="Email"required>
+		</section>
+		<br>
+		<section>
+			<label for="gender">Gender*</label>
+			<input type="radio" name="gender" id="gender" required>gender_m
+			<input type="radio" name="gender" id="gender" required>gender_f
+		</section>
+		<br>
+		<section>
+			<label for="cars">Choose your car*</label>
+			<input type="text" required placeholder="--Please choose an option--"><br>
+			<input type="checkbox" required>BMW
+			<input type="checkbox" required>Audi
+			<input type="checkbox" required>Mercedez
+		</section>
+		<br>
+		<section>
+			<lable for="age">Age*</lable>
+			<input type="number" name="age" id="age" placeholder="Age"required>
+		</section>
+		<br>
+		<section>
+			<lable for="DOB">DOB*</lable>
+			<input type="date" name="DOB" id="DOB"required>
+		</section>
+		<br>
+		<section>
+			<label for="phone">Phone Number</label>
+			<input type="tel" name="phone" id="phone"placeholder=xxx-xxx-xxxx>
+		</section>
+		<br>
+		<section>
+			<label for="password">Password*</label>
+			<input type="password" name="password" id="password" placeholder="Password"required>
+		</section>
+		<br>
+		<input type="checkbox" required id=checkbox>I agree to the TOS*
+		<br>
+		<button type="submit">Submit
+ 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
